@@ -1,0 +1,103 @@
+* {
+  margin: auto;
+  padding: 0;
+  max-width: 1400px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  color: #1E212C;
+}
+
+.container {
+  
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.header {
+  background-color: #ffffff;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #FF5A30;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #1E212C;
+  font-weight: 500;
+}
+
+.nav .active {
+  color: #FF5A30;
+}
+
+.contacts {
+  display: flex;
+  gap: 20px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.contact .label {
+  font-size: 12px;
+  color: #787A80;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+  background-color: #f7f7f7;
+  position: relative;
+}
+
+.hero__content {
+  max-width: 600px;
+}
+
+.breadcrumb {
+  color: #787A80;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.hero__title {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero__text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #787A80;
+}
+
+.hero__image img {
+  max-width: 500px;
+  height: auto;
+  transform: translateX(50px);
+}
