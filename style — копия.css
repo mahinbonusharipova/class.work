@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.abcd {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.dcba {
+    height: 660px;
+    background-color: #F4F5F6;
+}
+.b {
+    display: flex;
+    gap: 30px;
+}
+.c {
+    display: flex;
+    gap: 30px;
+}
+.d {
+    display: flex;
+}
+.ef {
+    display: flex;
+}
+.f {
+    background-image: url(./img/chelik.png);
+    background-repeat: no-repeat;
+    width: 1080px;
+    height: 600px;
+    margin-left: 120px;
+}
+.poxx {
+    position: relative;
+    left: 120px;
+    top:220px
+}
+.pox {
+    padding: 30px 0px;
+    font-size: 72px;
+}
+.g {
+    display: flex;
+    font-size: 26px;
+    justify-content: center;
+    margin-top: 60px;
+}
+.h {
+    display: flex;
+    gap: 60px;
+    font-weight: 700;
+}
+.gh1 {
+    color: #FF5A30;
+    padding: 10px 30px;
+    border: solid 2px;
+    border-color: #FF5A30;
+    border-radius: 10px;   
+}
+.h {
+    padding: 10px 30px;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.box1 {
+    width: 600px;
+    height: 432px;
+    box-shadow: 0px 0px 2px black;
+}
+.boxt {
+    padding-top: 10px;
+    width: 552px;
+}
+.ind  {
+    margin-top: 20px;
+}
+.boxes p{
+    padding: 0px 20px;
+}
+.boxes h4{
+    padding: 5px 20px;
+}
+.odin {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.odinp {
+    color: #FF5A30;
+}
+.back {
+    background-image: url(./img/domik.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 826px;
+}
+.form {
+    width: 495px;
+    height: 566px;
+    background-color: white;
+    margin-left:900px;
+    margin-top: 160px;
+    position: relative;
+    top: 120px;
+}
+.mm input{
+    width: 415px;
+    height: 44px;
+    margin-left: 30px;
+}
+.mms input{
+    margin-top: 10px;
+    width: 415px;
+    height: 64px;
+    color: #9A9CA5;
+    margin-left: 30px;
+}
+.form p{
+margin-top: 20px;
+color: #424551;
+margin-left: 30px;
+}
+.ms {
+    width: 386px;
+}
+.form img{
+margin-top: 20px;
+color: #424551;
+margin-left: 30px;
+}
+.mr {
+    display: flex;
+    align-items: center;
+}
+.mrs {
+    width: 174px;
+    height: 44px;
+    background-color: #FF5A30;
+    border-radius: 5px;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+.mrs p{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.form h2 {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.last {
+    height: 700px;
+    background-color: #1E212C;
+}
+.large {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+   padding-top: 60px; 
+}
+.txt {
+    width: 493px;
+    color: #bebebe;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.adad {
+    color: white;
+    margin-top: 60px;
+}
+.adad p {
+    margin-top: 20px;
+    color: rgb(197, 197, 197);
+}
+.adad h5 {
+    margin-top: 80px;
+    color: rgb(197, 197, 197);
+}
+.flexer {
+    display: flex;
+    gap: 120px;
+    margin-left: 100px;
+}
+.dwda {
+    color: rgb(192, 192, 192);
+margin-top: 140px;
+}
+.dwda p{
+    padding-top: 20px;
+}
+.clara {
+    display: flex;
+    gap: 200px;
+    margin-left: 100px;
+}
+.hwir {
+    color: rgb(208, 208, 208);
+    font-size: 24px;
+    margin-top:120px;
+    margin-left: 100px;
+}
+.hwir input {
+    padding: 10px 100px;
+    background-color: #424551;
+    border-radius: 5px;
+}
+.fk {
+    display: flex;
+}
+.fk button {
+    padding: 10px 30px;
+    background-color: #FF5A30;
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+.hwir p {
+    width: 495px;
+    font-size: 12px;
+    margin-top: 10px;
+    color: rgb(190, 190, 190);
+}
